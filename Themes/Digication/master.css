@@ -1,10 +1,8 @@
-body{
-	background: #bbcfdb;
-	}
+body{#ececec}
 
 
 #top-panel {
-  background: none; }
+  background: #fff; }
   #top-panel td#login-field span a {
     background: none; }
   #top-panel td #searchform a {
