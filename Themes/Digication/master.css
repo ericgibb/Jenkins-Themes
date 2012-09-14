@@ -1,4 +1,6 @@
-body{}
+body{
+	background: #bbcfdb;
+	}
 
 
 #top-panel {
@@ -10,7 +12,7 @@ body{}
     height: auto;
     width: auto; }
   #top-panel td > a {
-    background: url("http://www.isotope11.com/assets/isotope_logo.png") 0 0 no-repeat;
+    background: url("http://digication.com/images/logo.jpg") 0 0 no-repeat;
     display: block;
     height: 85px;
     width: 276px;
