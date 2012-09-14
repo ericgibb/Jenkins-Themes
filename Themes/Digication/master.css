@@ -28,8 +28,9 @@ body * {
     height: auto;
     width: auto; }
     
-   #top-panel td > a:before{content:"Digication CI Server"; color: #fff; text-transform: uppercase; font-family: }
+   #top-panel td > a:before{content:"☆ Digication CI Server"; color: #fff; text-transform: uppercase; font-size:18px }
   #top-panel td > a {
+    padding: 6px;
     background: none;
     display: block;
   }
@@ -45,6 +46,7 @@ table#projectstatus th{
     height: 2em;
 }
 table#projectstatus tr td{padding: .5em;}
+table#projectstatus tr.disabledJob{opacity: .3;}
 table#viewList{
     border-collapse: collapse;
 }
