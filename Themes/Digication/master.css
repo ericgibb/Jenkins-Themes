@@ -36,6 +36,86 @@ body * {
   }
     #top-panel td > a img {
       display: none; }
+      
+ul#breadcrumbs {
+  list-style: none; 
+  overflow: hidden; 
+  height:20px;
+  background:#ddd;
+}
+
+ul#breadcrumbs li{
+  padding:0
+}
+
+ul#breadcrumbs li a {
+  color:#888;
+  text-decoration: none; 
+  padding: 0 0 1px 25px;
+  background: #eee;
+  position: relative; 
+  display: block;
+  float: left;
+}
+
+ul#breadcrumbs li a:hover, ul#breadcrumbs li:last-child a:hover, #right-top-nav a:hover {
+  color:#08C;
+}
+
+ul#breadcrumbs li+li a {
+  padding-left: 45px;
+}
+
+ul#breadcrumbs li:last-child a {
+  color:#333;
+  background:#fff;
+}
+
+ul#breadcrumbs li a:after{
+  content: " "; 
+  display: block; 
+  width: 0; 
+  height: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 30px solid #eee;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px; 
+  left: 100%;
+  z-index: 2; 
+}
+
+ul#breadcrumbs li:last-child a:after{
+  border-left: 30px solid #fff;
+}
+
+ul#breadcrumbs li a:before{
+  content: " "; 
+  display: block; 
+  width: 0; 
+  height: 0;
+  border-top: 50px solid transparent;       
+  border-bottom: 50px solid transparent;
+  border-left: 30px solid #888;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px; 
+  margin-left: 1px;
+  left: 100%;
+  z-index: 1; 
+}
+
+.top-sticker-inner #right-top-nav {
+  margin-right:0;
+  padding-right:5px;
+  background:#ddd;
+  height:21px;
+}
+
+#right-top-nav a {
+  text-transform:lowercase;
+}
 
 table#main-table {background-image:none !important;}
 table#projectstatus{
