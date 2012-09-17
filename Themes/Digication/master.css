@@ -208,7 +208,7 @@ img[src*="yellow"]{background: #FFF42B !important; width: 40px; height: 40px; pa
 img[src*="red"]{background: #E54028 !important; width: 40px; height: 40px; padding: 1px; content: url('data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==');}
 
 
-#statistics.pane img {height: 50px}
+.pane img {height: 50px; width: auto;}
 
 .yui-menu-shadow{display: none;}
 #breadcrumb-menu{position:relative; padding-top: 20px; background: none; border: none;}
