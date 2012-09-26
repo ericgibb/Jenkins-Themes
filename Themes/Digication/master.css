@@ -67,7 +67,7 @@ ul#breadcrumbs li+li a {
   padding-left: 45px;
 }
 
-ul#breadcrumbs li:last-child a {
+ul#breadcrumbs li:last-of-type a {
   color:#333;
   background:#fff;
  }
