@@ -66,9 +66,9 @@ ul#breadcrumbs li+li a {
   padding-left: 45px;
 }
 
-ul#breadcrumbs li:last-child a {
-  color:#333;
-  background:#fff;
+ul#breadcrumbs li a:hover, ul#breadcrumbs li:last-of-type a:hover, ul#breadcrumbs li#inpage-nav:last-of-type a:hover, #right-top-nav a:hover {
+  cursor: pointer;
+  color: #08C;
 }
 
 ul#breadcrumbs li a:after{
@@ -86,7 +86,7 @@ ul#breadcrumbs li a:after{
   z-index: 2; 
 }
 
-ul#breadcrumbs li:last-child a:after{
+ul#breadcrumbs li:last-of-type a:after{
   border-left: 30px solid #fff;
 }
 
