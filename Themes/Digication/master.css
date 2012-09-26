@@ -58,19 +58,19 @@ ul#breadcrumbs li a {
   float: left;
 }
 
-ul#breadcrumbs li a:hover, ul#breadcrumbs li:last-child a:hover, #right-top-nav a:hover {
-  color:#08C;
+ul#breadcrumbs li a:hover, ul#breadcrumbs li:last-of-type a:hover, ul#breadcrumbs li#inpage-nav:last-of-type a:hover, #right-top-nav a:hover {
+  cursor: pointer;
+  color: #08C;
 }
 
 ul#breadcrumbs li+li a {
   padding-left: 45px;
 }
 
-ul#breadcrumbs li a:hover, ul#breadcrumbs li:last-of-type a:hover, ul#breadcrumbs li#inpage-nav:last-of-type a:hover, #right-top-nav a:hover {
-  cursor: pointer;
-  color: #08C;
-}
-
+ul#breadcrumbs li:last-child a {
+  color:#333;
+  background:#fff;
+ }
 ul#breadcrumbs li a:after{
   content: " "; 
   display: block; 
