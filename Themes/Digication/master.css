@@ -186,7 +186,7 @@ table#executors td.pane-header{
 
 /*menu icons*/
 img[src*="new-package"]{width: 14px; height: 14px; content: url("http://ericgibb.github.com/Jenkins-Themes/Themes/Digication/images/new.png");}
-img[src*="user"]{width: 14px; height: 14px; content: url("http://ericgibb.github.com/Jenkins-Themes/Themes/Digication/images/user.png");}
+img[src*="user.png"]{width: 14px; height: 14px; content: url("http://ericgibb.github.com/Jenkins-Themes/Themes/Digication/images/user.png");}
 img[src*="notepad"]{width: 14px; height: 14px; content: url("http://ericgibb.github.com/Jenkins-Themes/Themes/Digication/images/history.png");}
 img[src*="setting"]{width: 14px; height: 14px; content: url("http://ericgibb.github.com/Jenkins-Themes/Themes/Digication/images/manage.png");}
 img[src*="game"]{width: 14px; height: 14px; content: url("http://ericgibb.github.com/Jenkins-Themes/Themes/Digication/images/game.png");}
