@@ -128,9 +128,27 @@ table#projectstatus th{
 }
 table#projectstatus tr td{padding: .5em;}
 table#projectstatus tr.disabledJob{opacity: .3;}
+table#projectstatus tr td:nth-last-child(2) span[class^=status]{
+    position:relative;
+    display:inline-block;
+    width:60px;
+}
+
+table#projectstatus tr td:nth-last-child(2) span.label{
+    position:absolute;
+    left:0px;
+    text-align:center;
+    width:50px;
+    top:15px;
+    font-size:15px;
+    font-weight:bold;
+    color:rgba(0,0,0,.7);
+}
+
 table#viewList{
     border-collapse: collapse;
 }
+
 table#viewList td.inactive{
 }
 table#viewList td:hover {
@@ -205,10 +223,10 @@ img[src*="clock"]{width: 30px; height: 30px; content: url("http://ericgibb.githu
 
 
 /* color blocks */
-img[src*="blue"]{background: #D1E751 !important; width: 40px; height: 40px; padding: 1px; content: url('data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==');}
-img[src*="grey"]{background: #eee !important; width: 40px; height: 40px; padding: 1px; content: url('data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==');}
-img[src*="yellow"]{background: #FFF42B !important; width: 40px; height: 40px; padding: 1px; content: url('data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==');}
-img[src*="red"]{background: #E54028 !important; width: 40px; height: 40px; padding: 1px; content: url('data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==');}
+img[src*="blue"]{background: #D1E751 !important; width: 50px; height: 50px; padding: 1px; content: url('data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==');}
+img[src*="grey"]{background: #eee !important; width: 50px; height: 50px; padding: 1px; content: url('data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==');}
+img[src*="yellow"]{background: #FFF42B !important; width: 50px; height: 50px; padding: 1px; content: url('data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==');}
+img[src*="red"]{background: #E54028 !important; width: 50px; height: 50px; padding: 1px; content: url('data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==');}
 
 
 
